@@ -10,6 +10,12 @@
 
         <link rel="stylesheet" href="./styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    
+        <!-- Link Swiper's CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+        />
     </head>
     <body>
         <header>
@@ -26,57 +32,89 @@
                     <h2>Meus jogos</h2>
                     <p>Os games que eu mais curto jogar!</p>
 
-                    <ul class="games-list">
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/directory/game/The%20Witcher%203%3A%20Wild%20Hunt">
-                                <img 
-                                src="https://static-cdn.jtvnw.net/ttv-boxart/115977_IGDB-285x380.jpg" 
-                                alt="Capa do jogo The Witcher 3 - Wild Hunt" />
-                            </a>
-                        </li>
+                    <div class="swiper mySwiper">
+                        <ul class="games-list swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/The%20Witcher%203%3A%20Wild%20Hunt">
+                                    <img 
+                                    src="https://static-cdn.jtvnw.net/ttv-boxart/115977_IGDB-285x380.jpg" 
+                                    alt="Capa do jogo The Witcher 3 - Wild Hunt" />
+                                </a>
+                            </li>
 
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/directory/game/Hellblade%3A%20Senua's%20Sacrifice">
-                                <img 
-                                src="https://static-cdn.jtvnw.net/ttv-boxart/461410_IGDB-285x380.jpg" 
-                                alt="Capa do jogo Hellblade - Senua's Sacrifice" />
-                            </a>
-                        </li>
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Hellblade%3A%20Senua's%20Sacrifice">
+                                    <img 
+                                    src="https://static-cdn.jtvnw.net/ttv-boxart/461410_IGDB-285x380.jpg" 
+                                    alt="Capa do jogo Hellblade - Senua's Sacrifice" />
+                                </a>
+                            </li>
 
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/directory/game/A%20Plague%20Tale%3A%20Innocence">
-                                <img 
-                                src="https://static-cdn.jtvnw.net/ttv-boxart/497471_IGDB-285x380.jpg" 
-                                alt="Capa do jogo A Plague Tale - Innocence" />
-                            </a>
-                        </li>
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/A%20Plague%20Tale%3A%20Innocence">
+                                    <img 
+                                    src="https://static-cdn.jtvnw.net/ttv-boxart/497471_IGDB-285x380.jpg" 
+                                    alt="Capa do jogo A Plague Tale - Innocence" />
+                                </a>
+                            </li>
 
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/directory/game/Age%20of%20Empires%20III">
-                                <img 
-                                src="https://static-cdn.jtvnw.net/ttv-boxart/7830-285x380.jpg" 
-                                alt="Capa do jogo Age of Empires III" />
-                            </a>
-                        </li>
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V">
+                                    <img 
+                                    src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg" 
+                                    alt="Capa do jogo GTA V" />
+                                </a>
+                            </li>
 
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/directory/game/Rocket%20League">
-                                <img 
-                                src="https://static-cdn.jtvnw.net/ttv-boxart/30921-285x380.jpg" 
-                                alt="Capa do jogo Rocket League" />
-                            </a>
-                        </li>
-                    </ul>
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Left%204%20Dead%202">
+                                    <img 
+                                    src="https://static-cdn.jtvnw.net/ttv-boxart/24193_IGDB-285x380.jpg" 
+                                    alt="Capa do jogo Left 4 Dead 2" />
+                                </a>
+                            </li>
+
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Dead%20Space">
+                                    <img 
+                                    src="https://static-cdn.jtvnw.net/ttv-boxart/19009_IGDB-285x380.jpg" 
+                                    alt="Capa do jogo Dead Space" />
+                                </a>
+                            </li>
+
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Age%20of%20Empires%20III">
+                                    <img 
+                                    src="https://static-cdn.jtvnw.net/ttv-boxart/7830-285x380.jpg" 
+                                    alt="Capa do jogo Age of Empires III" />
+                                </a>
+                            </li>
+
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Rocket%20League">
+                                    <img 
+                                    src="https://static-cdn.jtvnw.net/ttv-boxart/30921-285x380.jpg" 
+                                    alt="Capa do jogo Rocket League" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
@@ -183,5 +221,16 @@
                 </div>
             </section>
         </main>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+        new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            loop: true
+        });
+        </script>
     </body>
 </html>

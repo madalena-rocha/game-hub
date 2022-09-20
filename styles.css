@@ -154,3 +154,21 @@ main section:nth-child(3) {
         transform: translateY(0);
     }
 }
+
+/* Swiper */
+
+main {
+    max-width: 488px;
+}
+
+section {
+    overflow: hidden;
+}
+
+section ul {
+    flex-wrap: nowrap;
+}
+
+section:nth-child(1) ul {
+    gap: 0;
+}
